@@ -1,0 +1,19 @@
+{
+  "name": "jokes",
+  "version": "1.0.0",
+  "description": "App to show jokes and let you add new ones.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayurkode7/jokes.git"
+  },
+  "author": "Mayur Kode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayurkode7/jokes/issues"
+  },
+  "homepage": "https://github.com/mayurkode7/jokes#readme"
+}
