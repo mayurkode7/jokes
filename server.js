@@ -12,6 +12,13 @@ app.get('/', (req, res) => {
 });
 
 
+// show about
+app.get('/about', (req, res) => {
+    res.sendFile(path.join(__dirname, 'static', 'about.html'), (err) => {
+        console.log(err)
+    })
+});
+
 // listen to port
 app.listen(PORT, () => {
     console.log(`Server started on port`);
