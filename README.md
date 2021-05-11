@@ -21,3 +21,15 @@ res.send('Hello Server')
 });
 
 # Configure PORT for server to listen
+
+# Configure configuration file
+
+## install dotenv npm i dotenv
+
+create folder config
+create file config.env
+
+config.env >>
+
+NODE_ENV=development
+PORT=5000
