@@ -1,7 +1,15 @@
 const path = require('path')
 const express = require('express')
-
 const app = express()
+const dotenv = require('dotenv') // to define config, url etc
+
+dotenv.config({ path: './config/config.env' })
+
+if (process.env.NODE_ENV === 'development') {
+    console.log('development mode is running')
+} else if (process.env.NODE_ENV === 'production') {
+    console.log('production mode is running')
+}
 
 const PORT = process.env.port || 5000
 
